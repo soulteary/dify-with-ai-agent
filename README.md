@@ -6,7 +6,7 @@
 
 - More "+AI" Cases: https://github.com/soulteary/100-apps-plus-AI
 
-- Article: WIP
+- Article: https://soulteary.com/2024/05/22/use-bytedance-doubao-llm-to-implement-the-simplest-ai-agent-app-on-dify-ai-information-retrieval.html
 
 ## Credits
 
