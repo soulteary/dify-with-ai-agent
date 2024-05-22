@@ -1,0 +1,37 @@
+
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "电影搜索",
+    "description": "从本地电影数据库中获取电影信息",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://10.11.12.90:8084"
+    }
+  ],
+  "paths": {
+    "/new-api-for-dify": {
+      "get": {
+        "description": "根据关键词获取电影信息",
+        "operationId": "GetMoviesByKeyword",
+        "parameters": [
+          {
+            "name": "keyword",
+            "in": "query",
+            "description": "想要搜索的关键词",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
